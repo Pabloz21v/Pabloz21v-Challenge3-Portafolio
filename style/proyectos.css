@@ -1,0 +1,17 @@
+.proyectos{
+    background-color: var(--3-color);
+}
+.proyectos__titulos{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.proyectos__img_y_datos{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: space-evenly;
+}
+.proyectos__img_y_datos:nth-child(2){
+    flex-direction: row-reverse;
+}

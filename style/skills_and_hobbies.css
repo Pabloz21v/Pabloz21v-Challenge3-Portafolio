@@ -1,0 +1,24 @@
+
+.skills_and_hobbies{
+    background-color: var(--3-color);
+    
+}
+
+.skills_and_hobbies_titulos{
+    
+    justify-content: center;
+    display: flex;
+    padding: 1rem;
+}
+
+.skills_and_hobbies_lista{
+    
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+}
+.skills_and_hobbies_items{
+    
+    display: flex;
+    flex-direction: column;
+}

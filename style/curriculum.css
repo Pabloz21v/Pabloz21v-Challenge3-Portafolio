@@ -1,0 +1,7 @@
+.curriculum{
+    background-color: var(--3-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem;
+}

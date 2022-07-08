@@ -1,0 +1,19 @@
+.menu {
+    background-color: var(--2-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+ .menu__yo{
+     margin: 1rem;
+ }
+ 
+ .menu__elementos{
+     display: flex;
+     flex-direction: row;
+ }
+ 
+ .menu__items{
+     margin: 1rem;
+     display: inline;
+ }
