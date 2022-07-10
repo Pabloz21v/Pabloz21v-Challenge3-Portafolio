@@ -2,14 +2,18 @@
     --1-color: #132BA8;
     --2-color: #B2D5FF;
     --3-color: #E8E7F6;
-    --4-color: #1D63AD;
+    
     --5-color: #6BA6F5;
     --color-letras: 000566;
+    --titulo: 2rem;
+    --btn-color-backg: #1D63AD;
+    --btn-color-font: #EEEEEE;
 }
 
 body{
     color: var(--color-letras);
     font-size: 18px;
+    
 }
 
 

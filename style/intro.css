@@ -2,15 +2,20 @@
     background-color: var(--3-color);
     display: flex;
     flex-direction: row;
+    padding: 0 7rem;
+    justify-content: space-between;
  }
-
+.intro__textos{
+   margin: auto 0;
+   width: 50rem;
+}
  .intro__titulo{
-    font-size: 1.5em;
-    margin: 0.5rem 1rem;
+   font-size: var(--titulo);
+    margin: 0.5rem 0;
  }
  .intro__presentacion{
-    font-size: 1.2em;
-    margin: 0.5rem 1rem;
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
  }
  .intro__elementos{
     display: flex;
@@ -21,5 +26,9 @@
     margin: 0.5rem 1rem 1rem;
  }
  .intro__foto_perfil{
-    margin: 2rem;
+    
+ }
+ .intro__foto_img{
+   width: 20rem;
+   margin: 1rem 0;
  }

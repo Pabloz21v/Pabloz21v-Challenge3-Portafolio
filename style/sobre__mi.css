@@ -1,9 +1,9 @@
 .sobre_mi{
     background-color: var(--2-color);
-    padding: 2rem 1rem;
+    padding: 2rem 7rem;
 }
 .sobre_mi__titulo{
-    font-size: 1.2rem;
+    font-size: var(--titulo);
     margin-bottom: 0.5rem;
 }
 .sobre_mi__texto{
@@ -11,4 +11,10 @@
 }
 .sobre_mi__imagen{
     margin: 0.5rem 0 0;
+}
+
+@media only screen and (max-width: 768px) { 
+    .sobre_mi{
+        padding: 2rem 1rem;
+    }
 }

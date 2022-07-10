@@ -5,3 +5,13 @@
     justify-content: space-evenly;
     padding: 1rem;
 }
+.curriculum__texto{
+    margin: auto 0;
+}
+
+.curriculum__btn{
+    background-color: var(--btn-color-backg);
+    color: var(--btn-color-font);
+    font-size: 1.1rem;
+    width: 10rem;
+}
