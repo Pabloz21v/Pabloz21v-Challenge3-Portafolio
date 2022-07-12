@@ -18,10 +18,8 @@
 
 @media only screen and (max-width: 768px) { 
     .sobre_mi__titulo{
-        
         padding: 0 2rem;
         margin-bottom: 0.5rem;
-        
     }
     .sobre_mi__texto{
         padding: 1rem;
