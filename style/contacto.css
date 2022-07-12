@@ -1,6 +1,5 @@
 .contacto{
     background-color: var(--2-color);
-   
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -20,13 +19,13 @@
 }
 .contacto__contacto{
     font-size: var(--titulo);
-    
     margin: 0.5rem;
 }
 .contacto__texto{
     margin: 0.5rem;
 }
 .contacto__inputs{
+    
     margin: 0.5rem;
 }
 .contacto__btn{
@@ -37,9 +36,16 @@
     width: 10rem;
 }
 @media only screen and (max-width: 768px){
+
+    .contacto__inputs{
+    
+        width: 80vw;
+    }
+    
     .contacto__imagen{
         display: none;
     }
+
 }
 @media only screen and (max-width: 425px){
     .contacto{
