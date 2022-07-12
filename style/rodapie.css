@@ -1,8 +1,9 @@
 .rodapie{
     background-color: var(--2-color);
-    padding: 1rem;
+     
     display: flex;
     flex-direction: column;
+    padding: var(--padding);
     
 }
 .rodapie>h6, .rodapie>p , .rodapie>a{

@@ -1,7 +1,7 @@
 
 .skills_and_hobbies{
     background-color: var(--3-color);
-    padding: 0 7rem;
+    padding: var(--padding);
 }
 
 .skills_and_hobbies_titulos{
@@ -33,3 +33,11 @@
     width: 5rem;
     height: 5rem;
 }
+
+@media only screen and (max-width: 768px){
+    .skills_and_hobbies_lista{
+        gap: 1rem 2rem;
+    }
+}
+
+

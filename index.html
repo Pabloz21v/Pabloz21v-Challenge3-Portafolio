@@ -23,41 +23,41 @@
         <div class="menu">
             <h1 class="menu__yo"> <img src="img/stars.png" alt=""> Acevedo, Pablo Sebastian.</h1>
             <ul class="menu__elementos">
-                <li class="menu__items">Sobre mi</li>
-                <li class="menu__items">Skills</li>
-                <li class="menu__items">Hobbies</li>
-                <li class="menu__items">Formacion</li>
-                <li class="menu__items">Proyectos</li>
-                <li class="menu__items">Contacto</li>
+                <li class="menu__items"> <a href="#sobre_mi">Sobre mi</a> </li>
+                <li class="menu__items"> <a href="#skills">Skills</a> </li>
+                <li class="menu__items"> <a href="#hobbies">Hobbies</a> </li>
+                <li class="menu__items"> <a href="#formacion">Formacion</a> </li>
+                <li class="menu__items"> <a href="#proyectos">Proyectos</a> </li>
+                <li class="menu__items"> <a href="#contacto">Contacto</a></li>
             </ul>
         </div>
     </header>
+
     <main>
-        <div class="intro">
+        <div class="intro" >
             <div class="intro__textos">
-                <h3 class="intro__titulo">Hola, mi nombre es Fulana de Tal y construyo paginas web</h3>
-                <h4 class="intro__presentacion">Soy formada en .... lorem ipsum sit amet consectetur y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h4>
+                <h3 class="intro__titulo">Hola mi nombre es Pablo Sebastian Acevedo, soy de nacionalidad argentina tengo 33 años y diseño páginas web.</h3>
+                <h4 class="intro__presentacion">Actualmente estoy participando del proyecto Oracle ONE en Alura Latam para ser Desarrollador web full stack.</h4>
                 <ul class="intro__elementos">
-                    <li class="intro__items">Github <img src="img/flecha.png" alt="img en forma de flecha"></li>
-                    <li class="intro__items">Linkedin <img src="img/flecha.png" alt="img en forma de flecha"></li>
-                    <li class="intro__items">Instragram <img src="img/flecha.png" alt="img en forma de flecha"></li>
-                    <li class="intro__items">Curriculum <img src="img/flecha.png" alt="img en forma de flecha"></li>
+                    <li class="intro__items"> <a target="_blank" href="https://www.linkedin.com/in/acevedo-pablo/">Linkedin <img src="img/flecha.png" alt="img en forma de flecha"></a> </li>
+                    <li class="intro__items"> <a target="_blank" href="https://github.com/Pabloz21v">Github <img src="img/flecha.png" alt="img en forma de flecha"></a> </li>
+                    <li class="intro__items"> <a target="_blank" href="#"> Curriculum <img src="img/flecha.png" alt="img en forma de flecha"></a></li>
                 </ul> 
             </div>
             <div class="intro__foto_perfil">
                 <img class="intro__foto_img" src="img/foto_perfil.jpg" alt="foto perfil" srcset="">
             </div>
         </div>
-        <div class="sobre_mi">
+
+        <div class="sobre_mi" id="sobre_mi">
             <h3 class="sobre_mi__titulo">Sobre mi</h3>
-            <p class="sobre_mi__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.
-            </p>
+            <p class="sobre_mi__texto">Soy Lic. en Tecnología de los Alimentos y actualmente me encuentro en un cambio hacia la programación, tema que siempre me gustó. Logré ser participante del proyecto Oracle ONE en Alura Latam donde estoy aprendiendo diferentes lenguajes de programación, como también la confección de proyectos (challenge) propuestos por ellos,  a su vez por ser una persona autodidacta me encuentro estudiando diferentes idiomas como hobbie y ampliando mis conocimientos de programación aun mas teniendo como base las enseñanzas de Oracle One / Alura. Todo con el fin de ser un desarrollador web full stack.</p>
             <img class="sobre_mi__imagen" src="img/firma.png" alt="mi firma">
         </div>
+
         <div class="skills_and_hobbies">
             <div>
-                <h3 class="skills_and_hobbies_titulos">Skills</h3>
+                <h3 class="skills_and_hobbies_titulos" id="skills" >Skills</h3>
                 <ul class="skills_and_hobbies_lista">
                     
                     <li class="skills_and_hobbies_items"><img class="skills_and_hobbies__img" src="img/icons8-css3-48.png" alt="logo css 3">CSS 3</li>
@@ -80,7 +80,7 @@
                 </ul>
             </div>
             <div>
-                <h3 class="skills_and_hobbies_titulos">Hobbies</h3>
+                <h3 class="skills_and_hobbies_titulos" id="hobbies">Hobbies</h3>
                 <ul class="skills_and_hobbies_lista">
                     <li class="skills_and_hobbies_items"><img class="skills_and_hobbies__img" src="img/icons8-language-64.png" alt="logo idiomas">Aprender Idiomas</li>
                     <li class="skills_and_hobbies_items"><img class="skills_and_hobbies__img" src="img/icons8-physical-activity-64.png" alt="logo ejercicio">Ejercicio fisico</li>
@@ -89,16 +89,10 @@
                 </ul>
             </div>
         </div>
-        <div class="formacion">
+        <div class="formacion" id="formacion">
             <h3 class="formacion_titulo">Formación académica</h3>
             <ul class="formacion_lista">
-                <li class="formacion_items">
-                    <div class="formacion__marco_de_img">
-                        <img class="formacion_img" src="img/alura.png" alt="logo alura">
-                    </div>
-                    <h3>Dev Web Full Stack</h3>
-                    <p>2022 - Alura</p> 
-                </li>
+                
                 <li class="formacion_items">
                     <div class="formacion__marco_de_img">
                         <img class="formacion_img" src="img/Lnlearning.png" alt="linkedin learning">
@@ -116,6 +110,13 @@
                 </li>
                 <li class="formacion_items">
                     <div class="formacion__marco_de_img">
+                        <img class="formacion_img" src="img/alura.png" alt="logo alura">
+                    </div>
+                    <h3>Dev Web Full Stack</h3>
+                    <p>2022 - Alura</p> 
+                </li>
+                <li class="formacion_items">
+                    <div class="formacion__marco_de_img">
                         <img class="formacion_img" src="img/UNCPBA.png" alt="logo UNCPBA">
                     </div>
                     <h3>Lic. en Tecnología de los Alimentos</h3>
@@ -123,37 +124,43 @@
                 </li>
             </ul>
         </div>
-        <div class="proyectos">
+        <div class="proyectos" id="proyectos">
             <h3 class="proyectos__titulos">Experiencia profesional</h3>
             <ul>
                 <li class="proyectos__img_y_datos">
                     <div class="proyectos__datos">
-                        <h4 class="protectos__titulo_reto">Encriptador de texto</h4>
-                        <h5 class="protectos__reto">Challenge Oracle / Alura</h5>
-                        <button class="proyectos__btns">Repositorio</button>
-                        <button class="proyectos__btns">Ver demo</button>
+                        <h4 class="protectos__titulo_reto">Encriptador de texto - Challenge Oracle / Alura</h4>
+                        <h5 class="protectos__reto">Codifica textos que puedes enviar a tus amigos para que los descifren con el mismo programa, manteniendo una charla secreta solo entre los que conozcan esta web. <br> Programado con Js, Html, Css.</h5>
+                        <div>
+                            <button class="proyectos__btns"> <a class="proyectos__btns" target="_blank" href="https://github.com/Pabloz21v/challenge-1-encriptador.github.io">Repositorio</a> </button>
+                            <button class="proyectos__btns"> <a class="proyectos__btns" target="_blank" href="https://pabloz21v.github.io/challenge-1-encriptador.github.io/">Ver demo</a> </button>
+                        </div>
                     </div>
                     <div class="proyectos__caja_imagen">
-                        <img class="proyectos__imagen" src="img/Rectangle.png" alt="img encriptador">
+                        <img class="proyectos__imagen" src="img/challenge-1.png" alt="img encriptador">
                     </div>
                 </li>
                 <li class="proyectos__img_y_datos">
                     <div class="proyectos__datos">
-                        <h4 class="protectos__titulo_reto">Juego del Ahorcado</h4>
-                        <h5 class="protectos__reto">Challenge Oracle / Alura</h5>
-                        <button class="proyectos__btns">Repositorio</button>
-                        <button class="proyectos__btns">Ver demo</button>
+                        <h4 class="protectos__titulo_reto">Juego del Ahorcado - Challenge Oracle / Alura</h4>
+                        <h5 class="protectos__reto"> Juego clásico del ahorcado, tienes que adivinar la palabra o ingresar una palabra nueva para que tus amigos la descifren. Tienes 10 vidas para hacerlo. <br> Programado con Js, Html, Css.</h5>
+                        <div>
+                            <button class="proyectos__btns"> <a class="proyectos__btns" target="_blank" href="https://github.com/Pabloz21v/AhorcadoPSA">Repositorio</a> </button>
+                            <button class="proyectos__btns"> <a class="proyectos__btns" target="_blank" href="https://pabloz21v.github.io/AhorcadoPSA/index.html">Ver demo</a> </button>
+                        </div>
                     </div>
                     <div class="proyectos__caja_imagen">
-                        <img class="proyectos__imagen" src="img/Rectangle (1).png" alt="img juego del ahorcado">
+                        <img class="proyectos__imagen" src="img/challenge-2.png" alt="img juego del ahorcado">
                     </div>
                 </li>
                 <li class="proyectos__img_y_datos">
                     <div class="proyectos__datos">
-                        <h4 class="protectos__titulo_reto">E-commence</h4>
-                        <h5 class="protectos__reto">Pronto Challenge Oracle / Alura</h5>
-                        <button class="proyectos__btns">Repositorio</button>
-                        <button class="proyectos__btns">Ver demo</button>
+                        <h4 class="protectos__titulo_reto">E-commence - Challenge Oracle / Alura</h4>
+                        <h5 class="protectos__reto">E-commence en desarrollo</h5>
+                        <div>
+                            <button class="proyectos__btns"> <a class="proyectos__btns" target="_blank" href="#">Repositorio</a> </button>
+                            <button class="proyectos__btns"> <a class="proyectos__btns" target="_blank" href="#">Ver demo</a> </button>
+                        </div>
                     </div>
                     <div class="proyectos__caja_imagen">
                         <img class="proyectos__imagen" src="img/soon.png" alt="img E-commence">
@@ -161,7 +168,7 @@
                 </li>
             </ul>
         </div>
-        <div class="contacto">
+        <div class="contacto" id="contacto">
             <div class="contacto__imagen">
                 <img class="contacto__imagen_img "src="img/telefono.png" alt="img de comunicacion">
             </div>
@@ -177,13 +184,13 @@
            </div>
         </div>
         <div class="curriculum">
-            <h3 class="curriculum__texto">Aquí dejo a tu disposicion mi curriculum en formato PDF</h3>
-            <button class="curriculum__btn">Descargar PDF</button>
+            <h3 class="curriculum__texto">Aquí dejo a tu disposición mi curriculum en formato PDF</h3>
+            <button class="curriculum__btn"> <a class="curriculum__btn" target="_blank" href="pdf/CV Pablo Acevedo.pdf">Curriculum</a> </button>
         </div>
     </main>
     <footer class="rodapie">
         
-        <a href="https://icons8.com/">Imagenes e iconos extraidos de  icons8.com </a>
+        <a target="_blank" href="https://icons8.com/">Imagenes e iconos extraidos de  icons8.com </a>
         <h6>Desarrollado por Acevedo, Pablo Sebastian. </h6>
         <p>2022</p>
     </footer>

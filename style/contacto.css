@@ -4,7 +4,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 1rem 7rem;
+    padding: var(--padding);
+    padding: 1rem auto;
 }
 .contacto__imagen{
     margin: 1rem;
@@ -34,4 +35,14 @@
     margin: 0.5rem;
     font-size: 1.1rem;
     width: 10rem;
+}
+@media only screen and (max-width: 768px){
+    .contacto__imagen{
+        display: none;
+    }
+}
+@media only screen and (max-width: 375px){
+    .contacto{
+        padding: 0;
+    }
 }

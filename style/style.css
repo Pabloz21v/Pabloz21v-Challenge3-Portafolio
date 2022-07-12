@@ -5,15 +5,34 @@
     
     --5-color: #6BA6F5;
     --color-letras: 000566;
-    --titulo: 2rem;
+    
     --btn-color-backg: #1D63AD;
     --btn-color-font: #EEEEEE;
+    --padding: 1rem 7rem;
+    --titulo: 2rem;
+    --letra-cuerpo: 18px;
 }
 
 body{
     color: var(--color-letras);
-    font-size: 18px;
+    font-size: var(--letra-cuerpo);
     
+}
+
+@media only screen and (max-width: 768px){
+    body{ 
+        font-size: var(--letra-cuerpo); 
+    }
+    :root{
+        --padding: 1rem 2rem;
+        --titulo: 1.5rem;
+        --letra-cuerpo: 14px;
+    }
+}
+@media only screen and (max-width: 375px){
+    :root{
+        --padding: 1rem 1rem;
+    }
 }
 
 

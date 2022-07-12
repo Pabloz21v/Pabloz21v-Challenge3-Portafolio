@@ -2,7 +2,7 @@
     background-color: var(--3-color);
     display: flex;
     flex-direction: row;
-    padding: 0 7rem;
+    padding: var(--padding);
     justify-content: space-between;
  }
 .intro__textos{
@@ -10,7 +10,7 @@
    width: 50rem;
 }
  .intro__titulo{
-   font-size: var(--titulo);
+    font-size: var(--titulo);
     margin: 0.5rem 0;
  }
  .intro__presentacion{
@@ -32,3 +32,27 @@
    width: 20rem;
    margin: 1rem 0;
  }
+
+@media only screen and (max-width: 768px){
+   .intro__foto_img{
+      width: 8.1rem;
+   }
+   .intro__titulo{
+      font-size: 1.22rem;
+   }
+   .intro__presentacion{
+      font-size: 0.88rem;
+      line-height: 1.2rem;
+   }
+}
+@media only screen and (max-width: 375px){
+   .intro{
+      flex-direction: column-reverse;
+   }
+   .intro__foto_img{
+      width: 5.4rem;
+   }
+   .intro__textos{
+      width: 18.3rem;
+   }
+}

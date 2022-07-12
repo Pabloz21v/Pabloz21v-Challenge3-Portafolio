@@ -1,6 +1,6 @@
 .formacion{
     background-color: var(--2-color);
-    padding: 0 7rem;
+    padding: var(--padding);
 }
 
 .formacion_titulo{
@@ -43,4 +43,17 @@
 }
 .formacion_items>h3{
     margin: 0.3rem 0;
+}
+
+@media only screen and (max-width: 768px){
+    
+}
+@media only screen and (max-width: 375px){
+    .formacion_items{ 
+        width: 16rem;
+    }
+    .formacion__marco_de_img{
+        width: 16rem; 
+    }
+    
 }

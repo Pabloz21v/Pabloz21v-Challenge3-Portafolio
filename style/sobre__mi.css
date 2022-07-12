@@ -1,9 +1,11 @@
 .sobre_mi{
     background-color: var(--2-color);
-    padding: 2rem 7rem;
+    padding: var(--padding);
+    line-height: 1.1rem;
 }
 .sobre_mi__titulo{
     font-size: var(--titulo);
+    padding: 2rem;
     margin-bottom: 0.5rem;
 }
 .sobre_mi__texto{
@@ -11,10 +13,24 @@
 }
 .sobre_mi__imagen{
     margin: 0.5rem 0 0;
+    padding: 1.5rem;
 }
 
 @media only screen and (max-width: 768px) { 
+    .sobre_mi__titulo{
+        
+        padding: 0 2rem;
+        margin-bottom: 0.5rem;
+        
+    }
+    .sobre_mi__texto{
+        padding: 1rem;
+    }
     .sobre_mi{
-        padding: 2rem 1rem;
+        padding: 1rem 1rem;
+    }
+    .sobre_mi__imagen{
+        margin: 0 0 0 2rem;
+        padding: 0.5rem;
     }
 }

@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 7rem;
+    padding: var(--padding);
  }
  .menu__yo{
     font-size: var(--titulo);
@@ -20,3 +20,22 @@
      margin: 1rem;
      display: inline;
  }
+ 
+@media only screen and (max-width: 768px){
+    .menu__yo{
+        font-size: 1.2rem;
+    }
+    .menu__elementos{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width: 375px){
+    .menu__yo{
+        font-size: 1rem;
+    }
+    .menu__yo{
+        
+         margin: 0.5rem 0;
+     }
+}
