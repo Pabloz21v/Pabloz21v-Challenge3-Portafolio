@@ -18,7 +18,7 @@
     flex-direction: row-reverse;  
 }
 .proyectos__imagen{
-    width: 40rem;
+    width: 50vw;
 }
 .proyectos__datos{
     margin: auto;
@@ -54,7 +54,7 @@
         margin: auto;
    }
    .proyectos__imagen{
-        width: 36rem;
+        width: 80vw;
    }
    .proyectos__datos{
         width: auto;
@@ -67,10 +67,8 @@
         font-size: 0.8rem;
    }
 }
-@media only screen and (max-width: 375px){
-    .proyectos__imagen{
-        width: 17rem;
-    }
+@media only screen and (max-width: 425px){
+    
    .proyectos__img_y_datos{
         padding: 1rem 0;
     }

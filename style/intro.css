@@ -7,7 +7,7 @@
  }
 .intro__textos{
    margin: auto 0;
-   width: 50rem;
+   width: 90vw;
 }
  .intro__titulo{
     font-size: var(--titulo);
@@ -23,13 +23,11 @@
     justify-content: flex-start;
  }
  .intro__items{
-    margin: 0.5rem 1rem 1rem;
+    margin: 0.5rem 0.5rem 1rem;
  }
- .intro__foto_perfil{
-    
- }
+ 
  .intro__foto_img{
-   width: 20rem;
+   width: 32vw;
    margin: 1rem 0;
  }
 
@@ -44,15 +42,16 @@
       font-size: 0.88rem;
       line-height: 1.2rem;
    }
+   .intro__items{
+      margin: 0.5rem 0.5rem 1rem;
+   }
 }
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 454px){
    .intro{
       flex-direction: column-reverse;
    }
    .intro__foto_img{
       width: 5.4rem;
    }
-   .intro__textos{
-      width: 18.3rem;
-   }
+   
 }

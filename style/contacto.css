@@ -41,7 +41,7 @@
         display: none;
     }
 }
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 425px){
     .contacto{
         padding: 0;
     }

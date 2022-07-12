@@ -11,13 +11,13 @@
  }
  
  .menu__elementos{
-    margin: auto 0;
+     margin: auto 0;
      display: flex;
      flex-direction: row;
  }
  
  .menu__items{
-     margin: 1rem;
+     margin: 0.5rem;
      display: inline;
  }
  
@@ -30,7 +30,7 @@
     }
     
 }
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 425px){
     .menu__yo{
         font-size: 1rem;
     }
