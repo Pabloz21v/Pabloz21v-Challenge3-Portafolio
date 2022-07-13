@@ -5,7 +5,9 @@ let asuntoGuardado = "";
 let mensajeGuardado = "";
 
 function validarEspacioBlanco(guardadoBlanco){
-    if (guardadoBlanco.length == 0 || guardadoBlanco == " ") {
+    const expReg = /[a-z0-9A-ZñÑ]/g
+    const verificarBlanco = expReg.test(guardadoBlanco)
+    if (guardadoBlanco.length == 0 || !verificarBlanco) {
         return true
     } else {
         return false
@@ -20,7 +22,14 @@ function maximoCincuentaCaracteres(guardadoMaxCinc){
     }
 }
 function formatoDeCorreo(guardadoCorreo){
-     
+    const expReg = /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/g
+    const verificarCorreo = expReg.test(guardadoCorreo)
+     if (!verificarCorreo) {
+        return true
+     } else {
+        return false
+        
+    }
 }
 function maximoTresCientosCaracteres(guardadoMaxTresCient){
     if (guardadoMaxTresCient.length > 300) {
@@ -111,7 +120,7 @@ function input_email(){
         elemento.innerHTML = avisoError;
         return false
    } else if  (validarFormato == true) {
-        const avisoError = "Debe tener @ y formato de un e-mail"
+        const avisoError = "Debe ser un E-mail"
         elemento.innerHTML = avisoError;
         return false
    } else {
@@ -136,7 +145,7 @@ document.querySelector("#btn-submit")
             // compilar un conjunto de pares clave/valor para enviar mediante XMLHttpRequest
             //console.log(new FormData(e.target)),
             )
-        console.log("exito")
+        console.log("envio exitoso")
         }
         
         input_nombre()

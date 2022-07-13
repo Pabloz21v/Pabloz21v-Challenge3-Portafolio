@@ -24,10 +24,25 @@
 .contacto__texto{
     margin: 0.5rem;
 }
-.contacto__inputs{
-    
-    margin: 0.5rem;
+.contacto__bloque_inputs{
+    display: flex;
+    flex-direction: column;
+    padding: 0.3rem 0;
 }
+.contacto__label{
+    margin: 0 0.6rem ;
+}
+ .contacto__inputs{
+    padding: 0.2rem;
+    
+    margin: 0.2rem 0.5rem;
+}
+.contacto__errores{
+    color: #cf0202;
+    margin: 0 auto;
+
+}
+
 .contacto__btn{
     background-color: var(--btn-color-backg);
     color: var(--btn-color-font);
