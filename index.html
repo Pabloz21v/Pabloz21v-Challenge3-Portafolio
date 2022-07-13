@@ -174,18 +174,36 @@
             <div class="contacto__imagen">
                 <img class="contacto__imagen_img "src="img/telefono.png" alt="img de comunicacion">
             </div>
-            <div class="contacto__items" id="btn-submit">
+            <form class="contacto__items" id="btn-submit">
                 <h3 class="contacto__contacto">Contacto</h3>
                 <p class="contacto__texto">¿Quieres contactarme?<br>
                     Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
-         <form action="https://formsubmit.co/pabloz21v@hotmail.com" method="POST">
-                <input class="contacto__inputs" type="text" name="Nombre" placeholder="Nombre">
-                <input class="contacto__inputs" type="email" name="E-mail" placeholder="E-mail">
-                <input class="contacto__inputs" type="text" name="Asunto" placeholder="Asunto">
-                <textarea class="contacto__inputs" name="Mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                <button class="contacto__btn" type="submit">Enviar mensaje</button>
-           </form>
-        </div>
+                <div >
+                    <label class="contacto__label" for="Nombre">Nombre</label>
+                    <input class="contacto__inputs" id="input_nombre" type="text" name="Nombre" placeholder="Nombre">
+                    <span class="contacto__errores" id="error_nombre"></span>
+                </div>
+                
+                <div>
+                    <label class="contacto__label" for="E-mail">E-mail</label>
+                    <input class="contacto__inputs" id="input_email" type="email" name="E-mail" placeholder="E-mail">
+                    <span class="contacto__errores" id="error_email"></span>
+                </div>
+
+                <div>
+                    <label class="contacto__label" for="Asunto">Asunto</label>
+                    <input class="contacto__inputs" id="input_asunto" type="text" name="Asunto" placeholder="Asunto">
+                    <span class="contacto__errores" id="error_asunto"></span>
+                </div>
+
+                <div>
+                    <label class="contacto__label" for="Mensaje">Mensaje</label>
+                    <textarea class="contacto__inputs" id="input_mensaje" name="Mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <span class="contacto__errores" id="error_mensaje"></span>
+                </div>
+
+                <button class="contacto__btn" type="submit" >Enviar mensaje</button>
+            </form>
         </div>
         <div class="curriculum">
             <h3 class="curriculum__texto">Aquí dejo a tu disposición mi curriculum en formato PDF</h3>
