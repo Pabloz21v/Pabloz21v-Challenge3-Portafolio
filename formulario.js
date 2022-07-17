@@ -119,15 +119,15 @@ function input_email(){
         const avisoError = "Debe completar el espacio"
         elemento.innerHTML = avisoError;
         return false
-   } else if  (validarFormato == true) {
+    } else if  (validarFormato == true) {
         const avisoError = "Debe ser un E-mail"
         elemento.innerHTML = avisoError;
         return false
-   } else {
+    } else {
         const avisoError = ""
         elemento.innerHTML = avisoError;
         return true
-   }
+    }
 } 
 
 
